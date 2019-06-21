@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-21T08:45:13.518Z",
+        "line": 3,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "test-login-functionality;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58212266900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "user enters username and password",
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login Functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  }
+]
